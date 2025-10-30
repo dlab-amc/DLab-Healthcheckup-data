@@ -1,6 +1,6 @@
 ## 🧬 Sample Input–Output Pairs (Health Checkup Dataset Example)
 
-This repository contains `sample_data(1000)`, a **sample dataset constructed for research on large language model (LLM)-based interpretation of health checkup results**.
+This repository contains `sample_data(1000)`, a **sample dataset constructed for research on large language model (LLM)-based interpretation of health checkup results**. <br>
 The data were **derived from the National Health Insurance Service (NHIS) health checkup database (Korea)** and **sampled, anonymized, and structured** for demonstration and research reproducibility purposes.
 
 ---
@@ -13,9 +13,9 @@ The data were **derived from the National Health Insurance Service (NHIS) health
 | `sample_data(1000)_answer_label.csv` | Categorical interpretation labels for each analyte (e.g., normal, borderline, abnormal) |
 
 
-> ⚠️ This dataset was **sampled and de-identified from the original NHIS health checkup data** to serve as a **research-ready example**.
-> All personally identifiable information has been removed.
-> The **original public dataset** can be accessed at the official Korean government data portal:
+> ⚠️ This dataset was **sampled and de-identified from the original NHIS health checkup data** to serve as a **research-ready example**. <br>
+> All personally identifiable information has been removed. <br>
+> The **original public dataset** can be accessed at the official Korean government data portal: <br>
 > 🔗 [National Health Insurance Service – Health Checkup Data (data.go.kr)](https://www.data.go.kr/data/15007122/fileData.do)
 
 ---
@@ -42,9 +42,8 @@ Each record represents the results of a single health checkup and consists of **
 
 #### 🧾 Output (`sample_data(1000)_answer_label.csv`)
 
-For each analyte, a categorical label indicates the interpretation result.
-For example, `FBG` in `sample_data(1000)_answer_label.csv` corresponds to the fasting blood glucose interpretation:
-
+For each analyte, a categorical label indicates the interpretation result. <br>
+For example, `FBG` in `sample_data(1000)_answer_label.csv` corresponds to the fasting blood glucose interpretation: <br>
 0 = normal, 1 = Diabetes, 2 = Impaired Fasting Glucose.
 
 <details> <summary>📋 <b>Click to expand 'Label Interpretation Criteria'</b></summary>
@@ -115,18 +114,18 @@ Criteria for interpretation were derived from publicly available clinical guidel
 | ------ | --- | -------- | ---- | -- | --- | -- | -- | ---- | ---- | -- | -- | -- | --- | --- | ----- |
 | SP00001 | 1   | 9        | 29.2 | 3  | 2   | 0  | 0  | 2    | 1    | 0  | 0  | 0  | 0   | 0   | 0     |
 
-> **Abbreviations:**
-> BMI = Body Mass Index; BP = Blood Pressure; FBG = Fasting Blood Glucose;
-> TC = Total Cholesterol; TG = Triglycerides; HDLC = High-Density Lipoprotein Cholesterol;
-> LDLC = Low-Density Lipoprotein Cholesterol; Hb = Hemoglobin;
-> UP = Urine Protein; SC = Serum Creatinine; AST = Aspartate Aminotransferase;
-> ALT = Alanine Aminotransferase; γ-GTP = Gamma-Glutamyl Transferase
+> **Abbreviations:** <br>
+> BMI = Body Mass Index; BP = Blood Pressure; FBG = Fasting Blood Glucose; <br>
+> TC = Total Cholesterol; TG = Triglycerides; HDLC = High-Density Lipoprotein Cholesterol; <br>
+> LDLC = Low-Density Lipoprotein Cholesterol; Hb = Hemoglobin; <br>
+> UP = Urine Protein; SC = Serum Creatinine; AST = Aspartate Aminotransferase; <br>
+> ALT = Alanine Aminotransferase; γ-GTP = Gamma-Glutamyl Transferase <br>
 
 ---
 
 ### 🧠 Research Purpose
 
-This dataset is intended to support research on **LLM-based automatic classification of health checkup results** and **prediction of retest necessity**.
+This dataset is intended to support research on **LLM-based automatic classification of health checkup results** and **prediction of retest necessity**. <br>
 It may also be used for **instruction-tuning or fine-tuning** demonstrations.
 
 
